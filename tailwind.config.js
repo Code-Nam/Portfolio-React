@@ -8,6 +8,9 @@ export default {
                 sans: ["Montserrat", "sans-serif"],
             },
         },
+        colors: {
+            'dark': "#1A191A",
+        },
     },
     plugins: [],
 };
