@@ -1,9 +1,10 @@
-import About from "./components/About";
+import About from "./sections/About";
+
 
 function App() {
     return (
         <div className="bg-[url('./assets/background.png')] bg-dark bg-cover bg-no-repeat">
-            <About />
+            <About/>
         </div>
     );
 }

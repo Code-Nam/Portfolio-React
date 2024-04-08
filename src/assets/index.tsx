@@ -1,5 +1,6 @@
 import logo from "../assets/logo.png";
 import github from "../assets/github.svg";
 import mail from "../assets/mail.svg";
+import star from "../assets/star.svg";
 
-export { logo, github, mail };
+export { logo, github, mail, star };
