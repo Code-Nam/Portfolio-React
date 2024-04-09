@@ -3,13 +3,12 @@
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        extend: {
-            fontFamily: {
-                sans: ["Montserrat", "sans-serif"],
-            },
+        fontFamily: {
+            sans: ["Montserrat", "sans-serif"],
         },
         colors: {
-            'dark': "#1A191A",
+            dark: "#1A191A",
+            white: "#FAFAFA",
         },
     },
     plugins: [],
