@@ -3,7 +3,7 @@ import Topbar from "../components/Topbar";
 
 const About = () => {
     return (
-        <div className='mx-8 md:mx-16 h-screen flex flex-col'>
+        <div id="about" className='mx-8 md:mx-16 h-screen flex flex-col'>
             <Topbar />
             <div className="flex flex-col flex-auto justify-center">
                 <section className='h-auto flex flex-col text-center md:text-left gap-2 text-white'>
