@@ -1,3 +1,4 @@
+import tailwindcssAnimated from "tailwindcss-animated";
 /** @type {import('tailwindcss').Config} */
 
 export default {
@@ -9,8 +10,8 @@ export default {
         colors: {
             dark: "#1A191A",
             white: "#FAFAFA",
-            purple: "#5125AD"
+            purple: "#5125AD",
         },
     },
-    plugins: [],
+    plugins: [tailwindcssAnimated],
 };
