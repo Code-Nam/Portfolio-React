@@ -1,0 +1,15 @@
+{
+  "translation" : {
+    "FullStackDeveloper" : "FullStack Developer",
+    "ProjectManager" : "Digital Project Manager",
+    "About": {
+      "Title": "About",
+      "Hey": "Hey",
+      "Name": ", I'm <b><i>Annam Tran</i></b>",
+      "Description": "I'm a junior web developer constantly on the <strong>lookout for new intercultural horizons</strong> and passionate about <strong>creating and managing projects </strong> that bring people together."
+    },
+    "Expertise" : "Expertise",
+    "Projects" : "Projects",
+    "Contact" : "Contact"
+  }
+}

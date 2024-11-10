@@ -12,6 +12,12 @@ export default {
             white: "#FAFAFA",
             purple: "#5125AD",
         },
+        extend: {
+            cursor: {
+                default: "url(assets/cursor.cur), default",
+                pointer: "url(assets/cursor_pointer.cur), pointer",
+            },
+        },
     },
     plugins: [tailwindcssAnimated],
 };

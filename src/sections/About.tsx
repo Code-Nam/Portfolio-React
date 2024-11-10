@@ -2,8 +2,10 @@ import { star } from "../assets";
 import Topbar from "../components/Topbar";
 import Title from "../components/Title";
 import { useEffect, useState } from "react";
+import { Trans, useTranslation } from "react-i18next";
 
 const About = () => {
+    const { t } = useTranslation();
     const [display, setDisplay] = useState(false);
 
     const handleDisplay = (finishedAnim: boolean) => {
@@ -21,42 +23,41 @@ const About = () => {
     }, [display]);
 
     return (
-        <div
+        <section
             id='about'
-            className='mx-8 md:mx-16 h-screen flex flex-col'
+            className='flex flex-col h-screen'
         >
             <Topbar />
-            <div className='flex flex-col flex-auto justify-center'>
-                <section className='h-auto flex flex-col text-center md:text-left gap-2 text-white'>
+            <article className='grid place-items-center h-full gap-2 text-center md:text-left'>
+                <div className='flex flex-col gap-3 items-center md:items-start'>
                     <Title handleAnimation={handleDisplay} />
-
                     <div
                         id='description'
                         className='
-                        invisible flex-col gap-3 
-                        animate-once animate-ease-out animate-fill-forwards
-                        '
+                        inline-flex flex-col items-center gap-3
+                        invisible animate-once animate-ease-out animate-fill-forwards'
                     >
-                        <div className='flex flex-col md:flex-row items-center gap-3 text-2xl md:text-3xl'>
-                            <h2>Fullstack Developer</h2>
+                        <div
+                            className='
+                        flex flex-col items-center gap-3 md:flex-row
+                        w-fit
+                        text-2xl md:text-3xl'
+                        >
+                            <h2>{t("FullStackDeveloper")}</h2>
                             <img
                                 src={star}
                                 alt='star'
                                 className='h-full'
                             />
-                            <h2>Project Manager</h2>
+                            <h2>{t("ProjectManager")}</h2>
                         </div>
-                        <p className='font-extralight text-justify md:w-1/3'>
-                            I'm a junior web developer constantly on the{" "}
-                            <b>lookout for new intercultural horizons</b> and
-                            passionate about{" "}
-                            <b>creating and managing projects </b> that bring
-                            people together.
+                        <p className='text-justify min-w-full w-min font-extralight'>
+                            <Trans i18nKey='About.Description' />
                         </p>
                     </div>
-                </section>
-            </div>
-        </div>
+                </div>
+            </article>
+        </section>
     );
 };
 
