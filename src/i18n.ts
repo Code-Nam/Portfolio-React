@@ -18,5 +18,4 @@ i18n
         fr: { ...frJSON },
     },
     fallbackLng: "en",
-    lng: "en",
 });
