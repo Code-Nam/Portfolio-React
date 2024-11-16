@@ -5,8 +5,11 @@ import languageDetector from "i18next-browser-languagedetector";
 import enJSON from "./locale/en.json";
 import frJSON from "./locale/fr.json";
 
-i18n
+if (!localStorage.getItem('i18nextLng')) {
+    localStorage.setItem('i18nextLng', 'en');
+     }
 
+i18n
 .use(initReactI18next)
 .use(languageDetector)
 .init({
@@ -15,4 +18,5 @@ i18n
         fr: { ...frJSON },
     },
     fallbackLng: "en",
+    lng: "en",
 });

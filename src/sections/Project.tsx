@@ -64,8 +64,8 @@ const Project = () => {
                     <img
                         src={project.image}
                         alt={project.title}
-                        className={`md:order-${
-                            index % 2 == 0 ? 1 : 2
+                        className={`order-first ${
+                            index % 2 == 0 ? "md:order-1" : "md:order-2"
                         } w-full md:w-1/2 h-52 object-contain md:object-cover`}
                     />
                     <div className='order-1'>
