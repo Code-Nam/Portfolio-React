@@ -66,7 +66,7 @@ const Project = () => {
                         alt={project.title}
                         className={`md:order-${
                             index % 2 == 0 ? 1 : 2
-                        } w-1/2 h-52 object-cover`}
+                        } w-full md:w-1/2 h-52 object-contain md:object-cover`}
                     />
                     <div className='order-1'>
                         <h3 className='text-4xl font-bold'>{project.title}</h3>
