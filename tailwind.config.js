@@ -24,7 +24,22 @@ export default {
                 purple: "#5125AD",
             },
             animation: {
-                spinCustom: 'spin 2s linear infinite'
+                spinCustom: "spin 2s linear infinite",
+                shine: "shine 2s linear infinite",
+            },
+            keyframes: {
+                shine: {
+                    from: {
+                        backgroundPosition: "0 0",
+                    },
+                    to: {
+                        backgroundPosition: "-200% 0",
+                    },
+                },
+            },
+            backgroundImage:{
+                'gradient-primary': "linear-gradient(110deg,#000103,45%,#5125AD,55%,#000103)",
+                'gradient-secondary': "linear-gradient(110deg,#000103,45%,#303030,55%,#000103)",
             }
         },
     },

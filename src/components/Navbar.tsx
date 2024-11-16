@@ -57,7 +57,7 @@ export default function AnimatedTabs({
             href: "#expertise",
         },
         {
-            title: t("Projects"),
+            title: t("Projects.Title"),
             icon: "mdi:cube-outline",
             href: "#project",
         },
@@ -72,7 +72,7 @@ export default function AnimatedTabs({
         <div className="grid place-items-center">
             <div
                 className={cn(
-                    "relative flex flex-wrap items-center justify-center bg-dark rounded-full w-fit",
+                    "relative flex flex-wrap items-center justify-center bg-black rounded-full w-fit",
                     containerClassName
                 )}
             >

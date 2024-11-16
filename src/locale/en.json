@@ -10,7 +10,21 @@
       "Resume": "Resume"
     },
     "Expertise" : "Expertise",
-    "Projects" : "Projects",
+    "Projects" : {
+      "Title": "Projects",
+      "PixelWar": {
+        "Description": "The 404 Devinci's annual project, Pixel//War, is a collaborative experience where each member can contribute to a huge pixelated mural, directly inspired by Reddit's r/place. The principle is simple: you add one pixel at a time, but together we create something incredible.",
+        "Type": "CLUB PROJECT"
+      },
+      "ClamCarte":{
+        "Description": "The Clam'Carte Back-office Web Application is a year-end project requested by the Clamart town hall. It is an administrative site for managing users and merchants of the Clam'Carte project, which aims to revitalize local commerce and build loyalty among young Clamartois(es).",
+        "Type": "SCHOOL PROJECT"
+      },
+      "Achaka":{
+        "Description": "This web application is a semester-end project requested by the micro-enterprise Achaka Conseils. It is a showcase site to present the company's services and allow customers to make appointments online.",
+        "Type": "SCHOOL PROJECT"
+      }
+    },
     "Contact" : {
       "Title": "Contact",
       "Reach": "Reach",

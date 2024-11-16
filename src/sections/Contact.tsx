@@ -15,7 +15,7 @@ const Contact = () => {
                     {t("Contact.Reach")} <span className='text-purple'>{t('Contact.Me')}</span>
                 </h3>
             </div>
-            <p className='font-light text-2xl md:text-4xl'>
+            <p className='font-light text-lg md:text-4xl'>
                 annampierretran@gmail.com <br />
                 +33 (0)7 68 35 03 75
             </p>

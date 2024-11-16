@@ -1,50 +1,92 @@
+import { achaka, clamcarte, pixelwar } from "../assets";
 import { useTranslation } from "react-i18next";
 
-const projects = [
-    {
-        title: "Project 1",
-        description: "Project 1 description",
-        image: "project1.png",
-    },
-    {
-        title: "Project 2",
-        description: "Project 2 description",
-        image: "project2.png",
-    },
-    {
-        title: "Project 3",
-        description: "Project 3 description",
-        image: "project3.png",
-    },
-];
-
-//TODO: Add the Projects
 const Project = () => {
     const { t } = useTranslation();
+
+    const projects = [
+        {
+            title: "Pixel War",
+            description: t("Projects.PixelWar.Description"),
+            image: pixelwar,
+            tags: [
+                t("Projects.PixelWar.Type"),
+                "React",
+                "Socket.io",
+                "Node.js",
+                "Express",
+                "MySQL",
+                "Docker",
+                "Github Actions",
+            ],
+        },
+        {
+            title: "Clam'Carte Back-Office",
+            description: t("Projects.ClamCarte.Description"),
+            image: clamcarte,
+            tags: [
+                t("Projects.ClamCarte.Type"),
+                "React",
+                "Node.js",
+                "Express",
+                "MySQL",
+            ],
+        },
+        {
+            title: "Achaka Conseils",
+            description: t("Projects.Achaka.Description"),
+            image: achaka,
+            tags: [
+                t("Projects.Achaka.Type"),
+                "Wordpress",
+                "PHP",
+                "Elementor",
+                "Hostinger",
+            ],
+        },
+    ];
+
     return (
         <section
             id='project'
-            //TODO: adjust height once projects are finished
-            className='grid place-items-center h-screen'
+            className='relative grid place-items-center gap-5 h-fit'
         >
-            <h2 className='text-4xl drop-shadow-[0_1px_1px_rgba(255,255,255)] md:text-[144px] text-black opacity-50 italic font-semibold'>
-                {t("Projects")}
+            <h2 className='absolute -top-20 text-4xl drop-shadow-[0_1px_1px_rgba(255,255,255)] md:text-[144px] text-black opacity-50 italic font-semibold'>
+                {t("Projects.Title")}
             </h2>
             {projects.map((project, index) => (
                 <article
                     key={index}
                     className={`${
                         index % 2 == 0 ? "justify-start" : "justify-end"
-                    } flex items-center h-full w-full`}
+                    } flex flex-col md:flex-row gap-5 items-center w-full`}
                 >
                     <img
                         src={project.image}
                         alt={project.title}
-                        className={`order-${index % 2 == 0 ? 1 : 2}`}
+                        className={`md:order-${
+                            index % 2 == 0 ? 1 : 2
+                        } w-1/2 h-52 object-cover`}
                     />
                     <div className='order-1'>
-                        <h3 className='text-4xl'>{project.title}</h3>
-                        <p>{project.description}</p>
+                        <h3 className='text-4xl font-bold'>{project.title}</h3>
+                        <p className='text-sm text-justify mb-5'>
+                            {project.description}
+                        </p>
+                        {project.tags.map((tag, index) => (
+                            <div
+                                key={index}
+                                className={`inline-flex animate-shine items-center justify-center rounded-full border border-neutral-800
+                                    ${
+                                        index == 0
+                                            ? "bg-gradient-primary"
+                                            : "bg-gradient-secondary"
+                                    }
+                                bg-[length:200%_100%] px-3 py-1 text-xs font-medium text-neutral-400 transition-colors`}
+                            >
+                                {tag}
+                            </div>
+                        ))}
                     </div>
                 </article>
             ))}
