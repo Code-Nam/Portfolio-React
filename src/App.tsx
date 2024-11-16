@@ -16,9 +16,13 @@ function App() {
                     <Project />
                     <Contact />
                 </div>
-                <div className='fixed bottom-10 w-full'>
+                <div className='fixed bottom-5 md:bottom-10 w-full'>
                     <Navbar />
                 </div>
+                <footer className="bg-purple flex text-white justify-around py-2">
+                    <p>&copy; 2024 Annam TRAN</p>
+                    <p>All rights reserved</p>
+                </footer>
             </div>
         </ReactLenis>
     );

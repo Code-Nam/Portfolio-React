@@ -14,7 +14,7 @@ const Title: React.FC<ChildProps> = ({handleAnimation}) => {
     useEffect(() => {
         // Update the displayed text without restarting the animation
         if (textRef.current && animationComplete) {
-            textRef.current.innerHTML = `${t("About.Hey")} ${t("About.Name")}`;
+            textRef.current.innerHTML = `${t("About.Hey")}${t("About.Name")}`;
         }
     }, [animationComplete, t]);
 

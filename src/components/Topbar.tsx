@@ -1,4 +1,4 @@
-import { logo, github, mail } from "../assets";
+import { logo, github, linkedin } from "../assets";
 import DropdownMenu from "./DropDownLanguage";
 
 const Topbar = () => {
@@ -13,16 +13,16 @@ const Topbar = () => {
 
                 <div className='flex items-center justify-center gap-5 mt-5 sm:mt-0'>
                     <DropdownMenu />
-                    <a href=''>
+                    <a href='https://github.com/Code-Nam' target="_blank">
                         <img
                             src={github}
                             alt="CodeNam's Github"
                         />
                     </a>
-                    <a href=''>
+                    <a href='https://www.linkedin.com/in/annam-tran' target="_blank">
                         <img
-                            src={mail}
-                            alt="CodeNam's Email"
+                            src={linkedin}
+                            alt="CodeNam's LinkedIn"
                         />
                     </a>
                 </div>

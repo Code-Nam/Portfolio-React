@@ -4,12 +4,17 @@
     "ProjectManager" : "Chef de projet digital",
     "About": {
       "Title": "À propos",
-      "Hey": "Salut",
-      "Name": ", je suis <b><i>Annam Tran</i></b>",
-      "Description": "Je suis un jeune développeur web constamment à la <strong>recherche de nouveaux horizons interculturels</strong> et passionné par la <strong>création et la gestion de projets</strong> qui rassemblent les gens."
+      "Hey": "Hey",
+      "Name": ", j'suis <b><i>Annam Tran</i></b>",
+      "Description": "Un jeune développeur web constamment à la <strong>recherche de nouveaux horizons interculturels</strong> et passionné par la <strong>création et la gestion de projets</strong> qui rassemblent les gens.",
+      "Resume": "CV"
     },
     "Expertise" : "Compétences",
     "Projects" : "Projets",
-    "Contact" : "Contact"
+    "Contact" : {
+      "Title": "Contact",
+      "Reach": "Contactez",
+      "Me": "moi"
+    }
   }
 }
