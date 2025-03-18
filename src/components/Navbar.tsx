@@ -81,7 +81,7 @@ export default function AnimatedTabs({
                         key={tab.title}
                         onClick={() => setTab(tab)}
                         className={cn(
-                            "group relative z-[1] rounded-full px-4 py-2",
+                            "group relative z-[1] rounded-full px-4 py-2 cursor-none hover:cursor-pointer",
                             { "z-0": activeIdx === index },
                             tabClassName
                         )}

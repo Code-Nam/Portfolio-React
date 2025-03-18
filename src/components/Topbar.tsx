@@ -13,13 +13,21 @@ const Topbar = () => {
 
                 <div className='flex items-center justify-center gap-5 mt-5 sm:mt-0'>
                     <DropdownMenu />
-                    <a href='https://github.com/Code-Nam' target="_blank">
+                    <a
+                        href='https://github.com/Code-Nam'
+                        className='cursor-none hover:cursor-pointer'
+                        target='_blank'
+                    >
                         <img
                             src={github}
                             alt="CodeNam's Github"
                         />
                     </a>
-                    <a href='https://www.linkedin.com/in/annam-tran' target="_blank">
+                    <a
+                        href='https://www.linkedin.com/in/annam-tran'
+                        className='cursor-none hover:cursor-pointer'
+                        target='_blank'
+                    >
                         <img
                             src={linkedin}
                             alt="CodeNam's LinkedIn"

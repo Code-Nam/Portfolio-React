@@ -70,7 +70,7 @@ const DropDownLanguage = () => {
                 onClick={() => setIsOpen(!isOpen)}
                 type='button'
                 id={LANGUAGE_SELECTOR_ID}
-                className='inline-flex justify-center gap-2 uppercase'
+                className='inline-flex justify-center gap-2 uppercase cursor-none hover:cursor-pointer'
                 aria-expanded={isOpen}
             >
                 {flagIcon}
@@ -89,7 +89,7 @@ const DropDownLanguage = () => {
                             key={lang.code}
                             onClick={() => handleLanguageChange(lang.code)}
                             type='button'
-                            className='flex items-center gap-2'
+                            className='flex items-center gap-2 cursor-none hover:cursor-pointer'
                             role='menuitem'
                         >
                             <CircleFlag
