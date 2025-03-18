@@ -26,7 +26,7 @@ const About = () => {
     return (
         <section
             id='about'
-            className='flex flex-col h-screen'
+            className='flex flex-col h-dvh'
         >
             <Topbar />
             <article className='grid place-items-center h-full gap-2 text-center md:text-left'>

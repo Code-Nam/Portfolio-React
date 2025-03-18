@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /private/
 Allow: /
+Allow: /api/og/*
 Sitemap: https://www.code-nam.com/sitemap.xml
