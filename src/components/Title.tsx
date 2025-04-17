@@ -20,7 +20,7 @@ const Title: React.FC<ChildProps> = ({handleAnimation}) => {
 
 return (
         <h1
-        className='text-4xl font-medium md:text-7xl w-fit'
+        className='text-4xl font-mono font-medium md:text-7xl w-fit'
         ref={textRef}
         >
             <TypeIt

@@ -7,7 +7,7 @@ const Contact = () => {
             id='contact'
             className='relative grid place-items-center h-dvh'
         >
-            <div className="absolute top-20 flex flex-col items-center gap-5 ">
+            <div className="absolute font-mono top-20 flex flex-col items-center gap-5 ">
                 <h2 className='text-4xl drop-shadow-[0_1px_1px_rgba(255,255,255)] md:text-[144px] text-black opacity-50 italic font-semibold'>
                     {t("Contact.Title")}
                 </h2>

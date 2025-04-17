@@ -1,6 +1,6 @@
 {
   "translation" : {
-    "FullStackDeveloper" : "FullStack Developer",
+    "FullStackDeveloper" : "Full Stack Developer",
     "ProjectManager" : "Digital Project Manager",
     "About": {
       "Title": "About",
@@ -12,6 +12,10 @@
     "Expertise" : "Expertise",
     "Projects" : {
       "Title": "Projects",
+      "Undercover": {
+        "Description": "Undercover is a social deduction party game where players receive secret roles and a word. Players take turns saying words related to their secret word, trying to identify who's on their team while avoiding detection by others.",
+        "Type": "PERSONAL PROJECT"
+      },
       "PixelWar": {
         "Description": "The 404 Devinci's annual project, Pixel//War, is a collaborative experience where each member can contribute to a huge pixelated mural, directly inspired by Reddit's r/place. The principle is simple: you add one pixel at a time, but together we create something incredible.",
         "Type": "CLUB PROJECT"

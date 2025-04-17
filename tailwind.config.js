@@ -4,10 +4,11 @@ import tailwindcssAnimated from "tailwindcss-animated";
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        fontFamily: {
-            sans: ["Montserrat", "sans-serif"],
-        },
         extend: {
+            fontFamily: {
+                sans: ["Geist", "sans-serif"],
+                mono: ["Geist Mono", "monospace"]
+            },
             cursor: {
                 default: "url(assets/cursor.cur), default",
                 pointer: "url(assets/cursor_pointer.cur), pointer",

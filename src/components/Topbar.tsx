@@ -11,7 +11,7 @@ const Topbar = () => {
                     className='w-10 h-10'
                 />
 
-                <div className='flex items-center justify-center gap-5 mt-5 sm:mt-0'>
+                <div className='flex items-center justify-center gap-5'>
                     <DropdownMenu />
                     <a
                         href='https://github.com/Code-Nam'

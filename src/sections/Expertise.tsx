@@ -63,7 +63,7 @@ const Expertise = () => {
             id='expertise'
             className='relative grid place-items-center h-dvh'
         >
-            <h2 className='absolute top-5 text-4xl drop-shadow-[0_1px_1px_rgba(255,255,255)] md:text-[144px] text-black opacity-50 italic font-semibold'>
+            <h2 className='absolute font-mono top-5 text-4xl drop-shadow-[0_1px_1px_rgba(255,255,255)] md:text-[144px] text-black opacity-50 italic font-semibold'>
                 {t("Expertise")}
             </h2>
             <article className='flex flex-wrap justify-center w-2/3 gap-2'>

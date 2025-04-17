@@ -22,7 +22,7 @@ function App() {
                         <Navbar />
                     </nav>
                     <footer className='bg-purple flex text-white justify-around py-2'>
-                        <p>&copy; 2025 Annam TRAN</p>
+                        <p>&copy; {new Date().getFullYear()} Annam TRAN</p>
                         <p>All rights reserved</p>
                     </footer>
                 </div>

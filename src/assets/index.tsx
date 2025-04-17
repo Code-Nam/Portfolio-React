@@ -8,5 +8,6 @@ import resume_en from "../assets/CV_Annam_TRAN_EN.pdf";
 import pixelwar from "../assets/pixelwar.webp";
 import clamcarte from "../assets/clamcarte.svg";
 import achaka from "../assets/achaka.webp";
+import undercover from "../assets/undercover.webp";
 
-export { logo, github, mail, star, linkedin, resume_fr, resume_en, pixelwar, clamcarte, achaka };
+export { logo, github, mail, star, linkedin, resume_fr, resume_en, pixelwar, clamcarte, achaka, undercover };

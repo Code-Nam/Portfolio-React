@@ -1,6 +1,6 @@
 {
   "translation" : {
-    "FullStackDeveloper" : "Développeur FullStack",
+    "FullStackDeveloper" : "Développeur Full Stack",
     "ProjectManager" : "Chef de projet digital",
     "About": {
       "Title": "À propos",
@@ -12,6 +12,10 @@
     "Expertise" : "Compétences",
     "Projects" : {
       "Title": "Projets",
+      "Undercover": {
+        "Description": "Undercover est un jeu de déduction sociale où les joueurs reçoivent des rôles secrets et un mot. À tour de rôle, les joueurs prononcent des mots liés à leur mot secret, en essayant d'identifier les membres de leur équipe tout en évitant de se faire repérer par les autres.",
+        "Type": "PROJET PERSONNEL"
+      },
       "PixelWar": {
         "Description": "Le projet annuel de la 404 Devinci, la Pixel//War, est une expérience collaborative où chaque membre peut contribuer à une immense fresque pixelisée, directement inspirée de r/place de Reddit. Le principe est simple : vous ajoutez un pixel à la fois, mais ensemble, nous créons quelque chose d'incroyable.",
         "Type": "PROJET ASSOCIATIF"
